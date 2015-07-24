@@ -1,7 +1,7 @@
 var epoch = 1437770506731;
 
 setInterval(function () {
-  console.log('a');
+
   var delta = (Date.now() - epoch)/86400/1000;
 
   var days = Math.floor(delta);
