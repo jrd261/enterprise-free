@@ -27,3 +27,7 @@ setInterval(function () {
   
 
 }, 10);
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('timer').textContent = (new Date()).toString();
+});
